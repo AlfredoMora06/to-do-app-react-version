@@ -1,0 +1,68 @@
+header {
+  padding: 1em 3em;
+  text-align: center;
+  background: -webkit-linear-gradient(to right, #d39d38, #4da0b0);
+  background: linear-gradient(to right, #d39d38, #4da0b0);
+}
+
+body {
+  font-family: Roboto;
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+}
+
+h1 {
+  text-align: center;
+}
+
+#block {
+  margin: 10px auto;
+}
+
+.addItem {
+  width: 360px;
+  margin: 10px auto;
+  outline: none;
+}
+
+#authenticate {
+  display: flex;
+  justify-content: space-around;
+}
+
+#buttons {
+  padding: 4rem;
+  margin: 10px auto;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: blue;
+}
+
+.todolist {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+  margin: 10px auto;
+  background: -webkit-linear-gradient(to right, #d39d38, #4da0b0);
+  background: linear-gradient(to right, #d39d38, #4da0b0);
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+button {
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
